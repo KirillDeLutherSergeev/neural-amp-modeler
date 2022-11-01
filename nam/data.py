@@ -19,7 +19,7 @@ from tqdm import tqdm
 from ._core import InitializableFromConfig
 
 _REQUIRED_SAMPWIDTH = 3
-REQUIRED_RATE = INPUT_RATE
+REQUIRED_RATE = 44_100
 _REQUIRED_CHANNELS = 1  # Mono
 
 
